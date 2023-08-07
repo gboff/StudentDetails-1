@@ -1,0 +1,90 @@
+<nav class="navbar navbar-expand-lg" style="height:6%;position:absolute;background-color: #141414;border-radius: 7px;padding-right:85.1%; padding-left:1%;margin-top:0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+  <a class="navbar-brand" style="color:rgb(218, 218, 212);text-decoration: none;" routerLink="/admin-home" routerLinkActive="active-link">Sree Saradha Portal</a>
+  <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <!-- <a  class="nav-link" routerLink="/admin-home" routerLinkActive="active-link">HOME</a> -->
+        <li class="nav-item active">
+          
+          <a  style="padding-left:1700%;" class="nav-link" routerLink="/admin-login" routerLinkActive="active-link">LOGOUT</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+  
+  <style>
+  
+  #activ
+  {
+    color:rgba(255, 189, 102, 0.705);
+  }
+  .nav-link
+    {
+  
+      color:rgb(218, 218, 212);margin-left:675%;
+    }
+    .nav-link:hover{
+      color:rgb(255, 189, 102);
+      transition: 1s;
+    }
+  
+  
+  
+  h1
+  {
+      margin-top:3%;
+      font-size: 100px;
+  }
+  .Func
+  {
+      margin-top:2%;
+  }
+  .custFunc
+  {
+      
+    display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size:25px;
+      font-family:Poppins;
+      transition:0.5s;
+      margin-left: 40%;
+      margin-right:40%;
+      margin-top:3%;
+      border-radius: 7px;
+      color:black;
+  }
+  
+  .custFunc:hover{
+    font-size:28px;
+    color: rgb(58, 58, 58);
+    text-shadow: 15px 15px #6b6b6b27;
+      transition: 0.5s;
+        
+      
+  }
+  </style>
+  
+  
+  
+  
+  
+  
+  <div class="main">
+      <h2>Student Details</h2>
+      <h1 style="font-weight:lighter;text-align:center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Welcome!</h1>
+      
+      <nav class="Func">
+      
+      
+     <!--  <a class ="custFunc" routerLink="/add-admin" routerLinkActive="active-link">Add Admin</a> -->
+      <a class ="custFunc" routerLink="/add-student" routerLinkActive="active-link">Add Student</a>
+      <a class ="custFunc" routerLink="/viewall-students" routerLinkActive="active-link">View All Students</a>
+      <a class ="custFunc" routerLink="/add-feesDetails" routerLinkActive="active-link">Add Fees Details</a>
+      <a class ="custFunc" routerLink="/viewall-feesDetails" routerLinkActive="active-link">View All FeesDetails</a>
+      
+      
+  </nav>
+  </div>

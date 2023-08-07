@@ -8,9 +8,9 @@ import { Admin } from "./Admin";
 
 export class AdminService
 {
-    private CreateAdminurl = 'https://shree-student-details-acc4dde4f770.herokuapp.com:8080/registerAdmin';
+    private CreateAdminurl = 'https://shree-student-details-acc4dde4f770.herokuapp.com/registerAdmin';
 
-    private loginAdminurl= 'https://shree-student-details-acc4dde4f770.herokuapp.com:8080/validateAdmin';
+    private loginAdminurl= 'https://shree-student-details-acc4dde4f770.herokuapp.com/validateAdmin';
 
     constructor(private http:HttpClient)
     {

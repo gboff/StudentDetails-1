@@ -9,9 +9,9 @@ import {Student} from "./Student";
 
 export class StudentService
 {
-    private studentUrl = 'https://shree-student-details-acc4dde4f770.herokuapp.com:8080/insertStudent';
+    private studentUrl = 'https://shree-student-details-acc4dde4f770.herokuapp.com/insertStudent';
 
-    private allstudentUrl = 'https://shree-student-details-acc4dde4f770.herokuapp.com:8080/showAllStudents';
+    private allstudentUrl = 'https://shree-student-details-acc4dde4f770.herokuapp.com/showAllStudents';
 
     constructor(private http:HttpClient)
     {
